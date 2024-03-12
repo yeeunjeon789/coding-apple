@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SSAFY</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-image: url('https://cdn.pixabay.com/photo/2018/01/24/19/52/love-3103752_960_720.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        color: white;
+      }
+
+      h1 {
+        font-size: 3em;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      p {
+        font-size: 1.5em;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      }
+
+      .bug {
+        text-shadow: 1px 1px 2px rgba(4, 26, 64, 0.5);
+        color: #3297ce;
+      }
+      .rainbow-text {
+        background: linear-gradient(
+          to right,
+          violet,
+          indigo,
+          blue,
+          green,
+          yellow,
+          orange,
+          red
+        );
+        -webkit-background-clip: text;
+        color: transparent;
+        display: inline-block;
+        font-size: 1.5em;
+      }
+
+      .heart {
+        color: #ff7b7b;
+        font-size: 2em;
+        animation: heartbeat 1s infinite;
+      }
+
+      .love {
+        animation: colorChange 2s infinite;
+        text-shadow: 2px 3px 3px violet;
+        display: inline-block;
+        font-size: 2em;
+      }
+
+      @keyframes colorChange {
+        0% {
+          color: white;
+        }
+        16.666% {
+          color: violet;
+        }
+        33.333% {
+          color: pink;
+        }
+        50% {
+          color: purple;
+        }
+        66.666% {
+          color: yellow;
+        }
+        83.333% {
+          color: orange;
+        }
+        100% {
+          color: red;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1><span class="rainbow-text">사랑</span>은 무한한 것입니다</h1>
+      <p>사랑은 모든 것을 이해하고, 모든 것을 용서합니다.</p>
+      <p>사랑은 영원히 지속되는 것입니다.</p>
+      <br />
+      <p>
+        사랑하는 마음과 함께라면 팀원들과 거친
+        <span class="love"> 무한 버그</span>
+        의 길을 이겨낼 수 있습니다.
+      </p>
+      <p class="love">화이팅</p>
+      <div class="heart">
+        <a href="https://edu.ssafy.com/edu/main/index.do"> ❤ </a>
+      </div>
+    </div>
+  </body>
+</html>
