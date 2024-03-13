@@ -10,7 +10,7 @@ p {
 }
 
 input[type='email'] {
-  width: 100%; 
+  width: 100%;
 }
 
 .last-name {
@@ -29,3 +29,4 @@ input[type='email'] {
   height: 50%;
   resize: none;
 }
+
